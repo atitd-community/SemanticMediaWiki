@@ -390,9 +390,9 @@ class TimeValueFormatter extends DataValueFormatter {
 
 	private function hintTimeCorrection( $hasTimeCorrection ) {
 
-		if ( $hasTimeCorrection ) {
-			return '&nbsp;' . \Html::rawElement( 'sup', [ 'title' => 'ISO: ' . $this->getISO8601Date() ], 'ᴸ' );
-		}
+//		if ( $hasTimeCorrection ) {
+//			return '&nbsp;' . \Html::rawElement( 'sup', [ 'title' => 'ISO: ' . $this->getISO8601Date() ], 'ᴸ' );
+//		}
 
 		return '';
 	}
